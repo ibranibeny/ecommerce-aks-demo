@@ -70,7 +70,7 @@
     <div class="mt-5 pt-4 border-top">
       <h3 class="mb-4">You might also like</h3>
       <div class="row g-4">
-        <% products.filter(p => p.id !== product.id).slice(0, 3).forEach(function(p) { %>
+        <% relatedProducts.forEach(function(p) { %>
         <div class="col-md-4">
           <div class="card h-100 shadow-sm">
             <img src="<%= p.image %>" class="card-img-top" style="height:150px;object-fit:cover;" alt="<%= p.name %>">
