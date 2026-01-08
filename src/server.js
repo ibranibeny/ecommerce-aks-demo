@@ -106,7 +106,7 @@ app.get('/ready', (req, res) => {
 
 // Landing page
 app.get('/', (req, res) => {
-    res.render('index', { products: products, title: 'ShopEase - Your Favorite Online Store' });
+    res.render('index', { products: products, title: 'MegaMart - Premium Online Shopping Experience' });
 });
 
 // Product detail page
