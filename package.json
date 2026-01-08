@@ -1,0 +1,30 @@
+{
+  "name": "ecommerce-aks-demo",
+  "version": "1.0.0",
+  "description": "Simple ecommerce demo for CI/CD with GitHub Actions and AKS",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest --coverage",
+    "lint": "eslint src/"
+  },
+  "keywords": ["ecommerce", "nodejs", "express", "aks", "kubernetes", "demo"],
+  "author": "Demo",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ejs": "^3.1.9",
+    "helmet": "^7.1.0",
+    "compression": "^1.7.4"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3",
+    "nodemon": "^3.0.2",
+    "eslint": "^8.56.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
